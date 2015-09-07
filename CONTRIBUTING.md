@@ -26,7 +26,7 @@ We use the [git-flow](http://nvie.com/posts/a-successful-git-branching-model/) b
     * For code that addresses an existing Issue, add the Issue number as a prefix e.g. `feature/123-auto-activate` or `feature/321-fix-admin-notices`.
     * Please avoid working directly on the `develop` branch.
 * Code should follow the [WordPress Coding Standards for PHP](https://make.wordpress.org/core/handbook/coding-standards/php/).
-    * Use [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) with the [WordPress Coding Standards](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards) sniffs to check.
+    * Use [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) with the [WordPress Coding Standards](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards) sniffs to check. Since we use `phpcs.xml`, you should be able to navigate on command line to the root of the repo and just run `phpcs` without any arguments.
 * Make commits of logical units and describe them properly.
 * Check for unnecessary whitespace with `git diff --check` before committing.
 
@@ -65,5 +65,5 @@ There is no need to sign-off or GPG sign your commits. Tags (from 2.4.1 onwards)
 * [GitHub pull request documentation](http://help.github.com/send-pull-requests/).
 * [Read the Issue Guidelines by @necolas](https://github.com/necolas/issue-guidelines/blob/master/CONTRIBUTING.md) for more details,
 
-[issue ticket]: https://github.com/thomasgriffin/TGM-Plugin-Activation/issues
-[reviewmerge]: https://github.com/thomasgriffin/TGM-Plugin-Activation/labels/reviewmerge
+[issue ticket]: https://github.com/TGMPA/TGM-Plugin-Activation/issues
+[reviewmerge]: https://github.com/TGMPA/TGM-Plugin-Activation/labels/reviewmerge
